@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*盒子模型: 盒子大小与width、height相等*/
+    box-sizing: border-box;
+    /*触摸高亮的颜色，改为透明*/
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft Sans Serif", "Comic Sans MS";
+    color: #333;
+}
+
+a {
+    /*去掉a标签的下划线*/
+    text-decoration: none;
+}
+
+ol, ul, dl {
+    list-style: none;
+}
+
+input {
+    /* 清除input 的内置的一些样式 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    outline: none;
+
+}
